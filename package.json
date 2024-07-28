@@ -1,6 +1,6 @@
 {
   "name": "json-hit",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A comprehensive library for your APIs",
   "type": "module",
   "main": "index.js",
