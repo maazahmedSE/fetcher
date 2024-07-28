@@ -1,17 +1,15 @@
 {
-  "name": "fetcher",
+  "name": "json-hit",
   "version": "1.0.0",
   "description": "A comprehensive library for your APIs",
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "start": "node index",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublishOnly": "npm test"
+    "start": "node index"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/maazahmedSE/fetcher.git"
+    "url": "https://github.com/maazahmedSE/jsonhit.git"
   },
   "keywords": [
     "fetch",
@@ -22,9 +20,9 @@
   "author": "Maaz Ahmed",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/yourusername/fetcher/issues"
+    "url": "https://github.com/maazahmedSE/jsonhit/issues"
   },
-  "homepage": "https://github.com/yourusername/fetcher#readme",
+  "homepage": "https://github.com/maazahmedSE/jsonhit#readme",
   "dependencies": {
     "node-fetch": "^3.3.2"
   }
