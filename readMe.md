@@ -56,7 +56,7 @@ body: 'bar',
 userId: 1
 };
 
-jsonHit.push(url, {
+jsonHit.post(url, {
 'Content-Type': 'application/json'
 }, data)
 .then(response => console.log(response))
