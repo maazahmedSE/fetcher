@@ -23,7 +23,7 @@ npm install json-hit
 Importing jsonHit
 In a JavaScript module, you can import jsonHit like this:
 
-```bash
+```javascript
 import jsonHit from 'json-hit';
 ```
 
@@ -31,7 +31,7 @@ import jsonHit from 'json-hit';
 
 Example of making a GET request:
 
-```bash
+```javascript
 import jsonHit from 'json-hit';
 
 const url = 'https://jsonplaceholder.typicode.com/posts';
@@ -44,7 +44,7 @@ jsonHit.get(url)
 
 Example of making a POST request:
 
-```bash
+```javascript
 import jsonHit from 'json-hit';
 
 const url = 'https://jsonplaceholder.typicode.com/posts/1';
