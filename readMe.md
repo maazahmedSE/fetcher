@@ -14,30 +14,37 @@ jsonhit is a comprehensive HTTP methods library built using the Fetch API. It si
 
 To install jsonhit, run:
 
+```bash
 npm install json-hit
+```
 
 ## Usage
 
 Importing jsonHit
 In a JavaScript module, you can import jsonHit like this:
 
+```bash
 import jsonHit from 'json-hit';
+```
 
 ## Making a GET Request
 
 Example of making a GET request:
 
+```bash
 import jsonHit from 'json-hit';
 
 const url = 'https://jsonplaceholder.typicode.com/posts';
 jsonHit.get(url)
 .then(response => console.log(response))
 .catch(error => console.error('Error:', error));
+```
 
 ## Making a POST Request
 
 Example of making a POST request:
 
+```bash
 import jsonHit from 'json-hit';
 
 const url = 'https://jsonplaceholder.typicode.com/posts/1';
@@ -54,6 +61,7 @@ jsonHit.put(url, {
 }, data)
 .then(response => console.log(response))
 .catch(error => console.error('Error:', error));
+```
 
 ## NOTE:
 
